@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "WebSiteName": {
+            "value": "RoleClaims3000"
+        },
+         "AppServicePlanName": {
+            "value": "DeveloperPlan"
+        },
+        "AppServicePlanSkuName": {
+            "value": "F1"
+        },
+        "AppServicePlanSkuCapacity": {
+            "value": 1
+        },
+        "SqlServerInstanceName": {
+            "value": "roleclaims3000"
+        },
+        "SqlServerAdminLogin": {
+            "value": "rcadmin"
+        },
+        "DatabaseName": {
+            "value": "RoleClaims"
+        },
+        "DatabaseCollation": {
+            "value": "SQL_Latin1_General_CP1_CI_AS"
+        },
+        "DatabaseEdition": {
+            "value": "Basic"
+        },
+        "DatabaseMaxSizeInBytes": {
+            "value": "1073741824"
+        },
+        "DatabaseRequestedServiceObjectiveName": {
+            "value": "Basic"
+        }
+    }
+}
