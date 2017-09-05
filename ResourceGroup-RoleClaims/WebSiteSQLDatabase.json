@@ -94,7 +94,7 @@
       "tags": {
         "displayName": "SqlServer"
       },
-      "apiVersion": "2014-04-01-preview",
+      "apiVersion": "2014-04-01",
       "properties": {
         "administratorLogin": "[parameters('SqlServerAdminLogin')]",
         "administratorLoginPassword": "[parameters('SqlServerAdminLoginPassword')]"
@@ -107,7 +107,7 @@
           "tags": {
             "displayName": "Database"
           },
-          "apiVersion": "2014-04-01-preview",
+          "apiVersion": "2014-04-01",
           "dependsOn": [
             "[resourceId('Microsoft.Sql/servers/', parameters('SqlServerInstanceName'))]"
           ],
@@ -120,7 +120,7 @@
         },
         {
           "type": "firewallrules",
-          "apiVersion": "2014-04-01-preview",
+          "apiVersion": "2014-04-01",
           "dependsOn": [
             "[resourceId('Microsoft.Sql/servers/', parameters('SqlServerInstanceName'))]"
           ],
