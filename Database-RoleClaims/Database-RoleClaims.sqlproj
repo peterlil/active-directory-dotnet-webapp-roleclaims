@@ -75,7 +75,6 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Tasks.sql" />
-    <Build Include="publishing-profiles\hej.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="publishing-profiles\Database-RoleClaims.dev.publish.xml" />
