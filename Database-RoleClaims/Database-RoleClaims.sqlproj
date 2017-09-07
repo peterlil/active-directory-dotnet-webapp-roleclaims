@@ -75,6 +75,9 @@
   <ItemGroup>
     <Build Include="dbo\Tables\Tasks.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Database-RoleClaims.dev.publish.xml" />
+  </ItemGroup>
   <PropertyGroup>
     <PostBuildEvent>REM xcopy "$(TargetDir)*.dacpac" ".\..\..\obj\Debug" /Y
 REM xcopy "$(TargetDir)*.dacpac" ".\..\..\obj\Release" /Y</PostBuildEvent>
