@@ -76,7 +76,7 @@
     <Build Include="dbo\Tables\Tasks.sql" />
   </ItemGroup>
   <PropertyGroup>
-    <PostBuildEvent>xcopy "$(TargetDir)*.dacpac" ".\..\..\obj\Debug" /Y
-xcopy "$(TargetDir)*.dacpac" ".\..\..\obj\Release" /Y</PostBuildEvent>
+    <PostBuildEvent>REM xcopy "$(TargetDir)*.dacpac" ".\..\..\obj\Debug" /Y
+REM xcopy "$(TargetDir)*.dacpac" ".\..\..\obj\Release" /Y</PostBuildEvent>
   </PropertyGroup>
 </Project>
