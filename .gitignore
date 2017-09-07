@@ -120,7 +120,7 @@ DocProject/Help/Html2
 DocProject/Help/html
 
 # Click-Once directory
-publish/
+#publish/
 
 # Publish Web Output
 *.[Pp]ublish.xml
@@ -128,7 +128,7 @@ publish/
 # TODO: Comment the next line if you want to checkin your web deploy settings 
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
-*.publishproj
+#*.publishproj
 
 # NuGet Packages
 *.nupkg
@@ -156,7 +156,7 @@ ClientBin/
 *.dbmdl
 *.dbproj.schemaview
 *.pfx
-*.publishsettings
+#*.publishsettings
 node_modules/
 
 # RIA/Silverlight projects
