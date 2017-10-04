@@ -39,7 +39,10 @@
       }
     },
     "SqlServerInstanceName": {
-      "type":"string"
+      "type":"string",
+      "metadata": {
+        "description": "Name of the SQL Server to hold the databases."
+      }
     },
     "SqlServerAdminLogin": {
       "type": "string"
