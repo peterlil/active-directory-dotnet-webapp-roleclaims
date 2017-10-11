@@ -211,6 +211,7 @@
     <Compile Include="Startup.cs" />
     <Compile Include="Utils\ConfigHelper.cs" />
     <Compile Include="Utils\Globals.cs" />
+    <Compile Include="Utils\KeyVaultHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
