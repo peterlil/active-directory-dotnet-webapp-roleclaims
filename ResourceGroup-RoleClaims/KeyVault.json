@@ -30,11 +30,25 @@
                     "family": "A",
                     "name": "standard"
                 },
-                "accessPolicies": [],
+                "accessPolicies": [
+                    {
+                        "tenantId": "[parameters('tenantId')]",
+                        "objectId": "[parameters('roleClaimsServicePrincipalObjectId')]",
+                        "applicationId": "[parameters('roleClaimsAadApplicationId')]",
+                        "permissions": {
+                            "keys": [
+                            ],
+                            "secrets": [
+                                "get,list"
+                            ],
+                            "certificates": [
+                            ]
+                        }
+                    }
+                ],
                 "enabledForDeployment": false,
                 "enabledForDiskEncryption": false,
                 "enabledForTemplateDeployment": true,
-                "enableSoftDelete": true,
                 "createMode": "default"
             }
         }
