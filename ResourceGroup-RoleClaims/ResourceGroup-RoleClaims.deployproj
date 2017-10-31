@@ -36,6 +36,8 @@
     <Content Include="Deploy-AzureResourceGroup.ps1" />
     <Content Include="WebSiteSQLDatabase.json" />
     <Content Include="WebSiteSQLDatabase.parameters.json" />
+    <None Include="KeyVault.json" />
+    <None Include="KeyVault.parameters.json" />
   </ItemGroup>
   <Target Name="GetReferenceAssemblyPaths" />
 </Project>
