@@ -36,13 +36,9 @@
                         "objectId": "[parameters('roleClaimsServicePrincipalObjectId')]",
                         "applicationId": "[parameters('roleClaimsAadApplicationId')]",
                         "permissions": {
-                            "keys": [
-                            ],
-                            "secrets": [
-                                "get,list"
-                            ],
-                            "certificates": [
-                            ]
+                            "keys": [],
+                            "secrets": ["get", "list"],
+                            "certificates": []
                         }
                     }
                 ],
