@@ -30,24 +30,7 @@
                     "family": "A",
                     "name": "standard"
                 },
-                "accessPolicies": [
-                    {
-                        "tenantId": "[parameters('tenantId')]",
-                        "objectId": "[parameters('roleClaimsServicePrincipalObjectId')]",
-                        "applicationId": "[parameters('roleClaimsAadApplicationId')]",
-                        "permissions": {
-                            "keys": [
-                                "a"
-                            ],
-                            "secrets": [
-                                "string"
-                            ],
-                            "certificates": [
-                                "string"
-                            ]
-                        }
-                    }
-                ],
+                "accessPolicies": [],
                 "enabledForDeployment": false,
                 "enabledForDiskEncryption": false,
                 "enabledForTemplateDeployment": true,
